@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "complete node js course",
+  "main": "http_module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon http_module.js",
+    "start-server": "node http_module.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwaisHaleem/Nodejs-The-Complete-Guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AwaisHaleem/Nodejs-The-Complete-Guide/issues"
+  },
+  "homepage": "https://github.com/AwaisHaleem/Nodejs-The-Complete-Guide#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
