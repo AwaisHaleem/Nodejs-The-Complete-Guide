@@ -5,7 +5,7 @@
   "main": "http_module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon http_module.js",
+    "start": "nodemon Assignments/second_assignment.js",
     "start-server": "node http_module.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AwaisHaleem/Nodejs-The-Complete-Guide#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.20"
   }
 }
