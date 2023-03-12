@@ -20,7 +20,7 @@ router.get("/add-product", (req, res, next) => {
 });
 
 router.post("/add-product", (req, res, next) => {
-  console.log(req.body.title);
+  
   products.push({ title: req.body.title });
   res.redirect("/");
 });
